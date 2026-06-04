@@ -8,6 +8,20 @@
 
 ---
 
+## 📸 Tampilan Aplikasi
+
+### Halaman Utama
+
+![Homepage](assets/SS-Web-1.png)
+
+---
+
+### Hasil Analisis
+
+![Result](assets/SS-Web-2.png)
+
+---
+
 Sebuah web aplikasi berbasis AI yang dapat menganalisis sentimen dari input pengguna, mulai dari satu kalimat sederhana hingga beberapa paragraf panjang.
 
 Aplikasi ini akan mengklasifikasikan teks ke dalam tiga kategori:
@@ -42,7 +56,7 @@ Project ini saya bangun sebagai bagian dari portfolio Machine Learning dan Fulls
 **Vercel**
 
 ```
-https://sentiment-analysis-plat-git-93a5d3-erland-widyatamakas-projects.vercel.app/
+https://sentiment-analysis-platform.vercel.app
 ```
 
 ### Backend API
@@ -50,7 +64,7 @@ https://sentiment-analysis-plat-git-93a5d3-erland-widyatamakas-projects.vercel.a
 **Hugging Face Spaces**
 
 ```
-https://erlandwt-sentiment-analysis-api.hf.space/
+https://erlandwt-sentiment-analysis-api.hf.space
 ```
 
 ### Dokumentasi API
@@ -58,7 +72,6 @@ https://erlandwt-sentiment-analysis-api.hf.space/
 ```
 https://erlandwt-sentiment-analysis-api.hf.space/docs
 ```
-
 
 ---
 
