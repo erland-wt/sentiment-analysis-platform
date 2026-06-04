@@ -1,11 +1,24 @@
+from pathlib import Path
 import joblib
 
-# load model
-model = joblib.load(
-    "models/logistic_regression_model_v1.pkl"
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+MODEL_PATH = (
+    BASE_DIR /
+    "models" /
+    "logistic_regression_model_v1.pkl"
 )
 
-# load tfidf
+TFIDF_PATH = (
+    BASE_DIR /
+    "models" /
+    "tfidf.pkl"
+)
+
+model = joblib.load(
+    MODEL_PATH
+)
+
 tfidf = joblib.load(
-    "models/tfidf.pkl"
+    TFIDF_PATH
 )

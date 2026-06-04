@@ -2,10 +2,15 @@ import re
 import string
 import emoji
 
+import nltk
 from nltk.corpus import stopwords as nltk_stopwords
 from nltk.tokenize import word_tokenize
 
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
+
+nltk.download("stopwords")
+nltk.download("punkt")
+nltk.download("punkt_tab")
 
 # Slang dictionary
 slang_dict = {
