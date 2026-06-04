@@ -14,7 +14,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "https://sentiment-analysis-platform.vercel.app"
+        "https://sentiment-analysis-plat-git-93a5d3-erland-widyatamakas-projects.vercel.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],

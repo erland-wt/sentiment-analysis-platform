@@ -42,7 +42,7 @@ Project ini saya bangun sebagai bagian dari portfolio Machine Learning dan Fulls
 **Vercel**
 
 ```
-https://sentiment-analysis-platform.vercel.app/
+https://sentiment-analysis-plat-git-93a5d3-erland-widyatamakas-projects.vercel.app/
 ```
 
 ### Backend API
